@@ -8,7 +8,7 @@ the python version must be satisfied:python == 3.10
 
 
 
-file_path = "C:/Users/21363/PycharmProjects/Isaac_Lab/TRON/SF_TRON_continuous_Vcmd/SF_TRON1A/USD/TRON.usd"  must be absolute path
+
 
 
 ####----------------How to run-------------------####
@@ -16,8 +16,9 @@ file_path = "C:/Users/21363/PycharmProjects/Isaac_Lab/TRON/SF_TRON_continuous_Vc
 
 
 1,When you first run this code, go to the Config.py change the vairable "file_path", it points to the 3D model. SF_TRON1A/USD/TRON.usd.
-It should be absolute path of the TRON.usd in your computer
-
+It should be absolute path of the TRON.usd in your computer.
+Example:
+file_path = "C:/Users/21363/PycharmProjects/Isaac_Lab/TRON/SF_TRON_continuous_Vcmd/SF_TRON1A/USD/TRON.usd"  must be absolute path
 
 
 2,in the beginning of PPO_Isaac_continuous_Vcmd.py, there is a variable called headless. 1 means no UI, 0 means show UI. 
